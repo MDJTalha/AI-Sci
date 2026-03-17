@@ -66,11 +66,13 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ## Deployment
 
-### Vercel (Frontend)
+### Vercel (Frontend) ✅
+
+**Live Demo**: https://frontend-two-taupe-56.vercel.app
 
 ```bash
 cd frontend
-vercel deploy
+vercel deploy --prod --yes
 ```
 
 ### Backend (Any platform)
